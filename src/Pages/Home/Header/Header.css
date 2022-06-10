@@ -5,7 +5,7 @@
 
     text-decoration: none;
     box-shadow: -5px -5px 8px #edeff1, 5px 5px 10px #cacfd8;
-    border-radius: 5px;
+    border-radius: 25px;
     color: gray;
     font-weight: 800;
     font-size: 18px;
@@ -19,7 +19,15 @@
 }
 
 .brand-name{
+    box-shadow: -5px -5px 8px #edeff1, 5px 5px 10px #cacfd8;
     font-size: 20px;
+    border-radius: 25px;
+    background-color: transparent ;
+    transition: .5s;
+}
+.brand-name:hover{
+    box-shadow: -20px -20px 45px #edeff1, 20px 20px 45px #cacfd8;
+    transform: scale(1.02);
 }
 
 .logout-btn {

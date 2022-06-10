@@ -9,7 +9,8 @@ const Home = () => {
         <div>
 
            <HeadShot></HeadShot>
-           <a href={resume} target="_blank" download><button className='logout-btn'>RESUME</button></a>
+           <a className='mt-5' href={resume} target="_blank" download><button className='logout-btn'>RESUME</button></a>
+           
 
         </div>
     );

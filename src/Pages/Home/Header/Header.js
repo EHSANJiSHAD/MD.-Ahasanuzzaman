@@ -9,7 +9,7 @@ const Header = () => {
         <div className='nav'>
             <Navbar collapseOnSelect expand="lg" variant="dark" >
                 <Container className=' '>
-                    <div as={Link} to='/' className=' fw-bold p-2 rounded  brand-name text-secondary shadow-lg'>MD. AHASANUZZAMAN</div>
+                    <div as={Link} to='/' className=' fw-bold p-2  brand-name text-secondary'>MD. AHASANUZZAMAN</div>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className='nav-bar' >
                         <div style={{marginLeft:'300px'}} className=''>

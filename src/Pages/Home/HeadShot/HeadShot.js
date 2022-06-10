@@ -17,7 +17,7 @@ const HeadShot = () => {
 
         
 
-        <img className='w-100 align-center' src={headShot} alt="" />
+        <img className='w-100' src={headShot} alt="" />
 
 
       </div>
