@@ -1,0 +1,13 @@
+.headshot{
+    display:flex;
+    position: absolute;
+    top: 0;
+}
+
+@media only screen and (max-width:688px) {
+    .headshot{
+        position: relative;
+        margin-top: -100px;
+        
+    }
+}
