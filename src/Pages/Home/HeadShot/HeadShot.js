@@ -1,5 +1,5 @@
 import './HeadShot.css'
-import headShot from '../../../assets/images/headshot2.png'
+import headShot from '../../../assets/images/headshot3.png'
 import React from 'react';
 import Rparticle from '../Rparticles/Rparticle';
 import { Button, Card } from 'react-bootstrap';
@@ -17,7 +17,7 @@ const HeadShot = () => {
 
         
 
-        <img className='w-100' src={headShot} alt="" />
+        <img className='img-fluid' src={headShot} alt="" />
 
 
       </div>

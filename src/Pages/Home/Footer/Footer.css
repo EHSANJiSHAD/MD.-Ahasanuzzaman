@@ -1,0 +1,30 @@
+.footer{
+    color:gray;
+}
+.socialLink{
+    color: gray;
+    box-shadow: -5px -5px 8px #edeff1, 5px 5px 10px #cacfd8;
+    border-radius: 70px;
+    padding: 5px;
+    transition: .5s;
+    margin-left: 40px;
+    margin-right: 40px;
+   
+}
+
+@media only screen and (max-width:688px) {
+    .footer-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .socialLink{
+        color: gray;
+        box-shadow: -5px -5px 8px #edeff1, 5px 5px 10px #cacfd8;
+        border-radius: 70px;
+        padding: 5px;
+        transition: .5s;
+        margin-left: 20px;
+        margin-right: 20px;
+       
+    }
+}

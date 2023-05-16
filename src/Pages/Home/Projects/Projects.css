@@ -1,0 +1,17 @@
+.card-div{
+    box-shadow: -5px -5px 8px #edeff1, 5px 5px 10px #cacfd8;
+    border: none;
+    border-radius: 15px;
+}
+.card-div img{
+    border-radius: 15px;
+}
+.card-body{
+    background-color:#e0e4eb;
+    height: 250px;
+}
+#projects{
+    display: grid;
+    grid-auto-flow: column;
+    
+}

@@ -1,0 +1,20 @@
+body{
+    
+
+}
+.typewriter-div{
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+    text-transform: uppercase;
+    box-shadow: -5px -5px 8px #edeff1, 5px 5px 10px #cacfd8;
+    text-shadow: 1px 1px rgb(14, 1, 1);
+}
+
+@media only screen and (max-width: 688px) {
+    .typewriter-div{
+        font-size: 16px;
+        font-weight: 500;
+        color: gray;
+    }
+}

@@ -4,6 +4,8 @@ import './App.css';
 import Footer from './Pages/Home/Footer/Footer';
 import Header from './Pages/Home/Header/Header';
 import Home from './Pages/Home/Home/Home';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   document.body.style = 'background: #e0e4eb;';
@@ -18,7 +20,7 @@ function App() {
 
       <Footer></Footer>
 
-
+      <ToastContainer toastStyle={{ backgroundColor: "#e0e4eb",color:"gray",boxShadow: "-5px -5px 8px #edeff1, 5px 5px 10px #cacfd8"}}/>
     </div>
   );
 }

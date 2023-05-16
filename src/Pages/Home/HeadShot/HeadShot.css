@@ -2,6 +2,11 @@
     margin-top: -300px;
     margin-left: 20px;
 }
+.headshot img{
+    
+    /* box-shadow: -5px -5px 8px #edeff1, 5px 5px 10px #cacfd8; */
+    border-radius: 50%;
+}
 .headshot-section{
     height: 420px;
 }
@@ -11,10 +16,11 @@
 @media only screen and (max-width:688px) {
     .headshot{
         /* position: relative; */
-        margin-top: -100px;
+        margin-top: -120px;
         
         
     }
+    
     .headshot-section{
         height: 230px;
     }
